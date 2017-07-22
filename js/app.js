@@ -46,12 +46,22 @@ Price: $$$
 Append this element to the div with the id of 
 "text4"*/
 
+var cost4 = document.createElement("div");
+cost4.idName = "price4";
+cost4.innerHTML = "Price: $$$";
+text4.appendChild(cost4);
+
 /*Create a new div element with an id of "addy4". Inside this div element, give it the following info:
 
 Address: 1620 N. School St, Honolulu, HI 96817
 
 Append this element to the div with the id of 
 "text4"*/
+
+var address4 = document.createElement("div");
+address4.idName = "addy4";
+address4.innerHTML = "Address: 1620 N. School St, Honolulu, HI 96817";
+text4.appendChild(address4);
 
 /*Create a new div element with an id of "hours4". Inside this div element, give it the following info:
 
@@ -61,11 +71,21 @@ Append this element to the div with the id of
 "text4"
 */
 
+var newHr4 = document.createElement("div");
+newHr4.idName = "hours4";
+newHr4.innerHTML = "Hours: 9am - 10pm Sun - Sat";
+text4.appendChild(newHr4);
+
 /*Create a paragraph element with an id of "update4". Inside this paragraph element, give it the following info:
 
 I'd leave a blank space for this oxtail soup!
 
 Append this element to the div id of "comment4"*/
+
+var addCom4 = document.createElement("p");
+addCom4.idName = "update4";
+addCom4.innerHTML = "I'd leave a blank space for this oxtail soup!";
+comment4.appendChild(addCom4);
 
 
 //5. The Death Star Cafe
