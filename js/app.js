@@ -7,12 +7,16 @@ Also don't forget to run your live-server for this assignment.*/
 
 Rating: 5 Stars*/
 
+rating1.innerHTML = "Rating: 5 Stars";
+
 
 //2. Sunrise Restaurant
 /*No rise and shine for the Sunrise Restaurant, as their price and address needs some serious updating. Bring in some sunshine by changing the price and address to the following:
 
 Price: $$$
 Adress: 525 Kapahulu Ave, Honolulu, HI 96815*/
+
+price2.innerHTML = "Price: $$$";
 
 
 //3. Ramen Nakamura
