@@ -17,6 +17,7 @@ Price: $$$
 Adress: 525 Kapahulu Ave, Honolulu, HI 96815*/
 
 price2.innerHTML = "Price: $$$";
+addy2.innerHTML = "Address: 525 Kapahulu Ave, Honolulu, HI 96815";
 
 
 //3. Ramen Nakamura
@@ -27,6 +28,12 @@ You will need to create a new div element with an id of "hours3". Inside this di
 Hours: 6pm - 12am Sun - Sat
 
 Append this div element to the div id "text3"*/
+
+var newHours = document.createElement("div");
+newHours.idName = "hours3";
+newHours.innerHTML = "Hours: 6pm - 12am Sun - Sat";
+text3.appendChild(newHours);
+
 
 
 //4. Kam Bowl
